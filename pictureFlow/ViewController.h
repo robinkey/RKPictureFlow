@@ -12,6 +12,7 @@
 @interface ViewController : UIViewController<RKWaterflowViewDelegate,RKWaterflowViewDatasource,UIScrollViewDelegate>
 {
     int count;
+    //瀑布流成员变量
     RKWaterflowView *flowView;
 }
 @end
